@@ -8,22 +8,13 @@
 <body <?php body_class(); ?>>
     <header>
         <nav>
+            <p><span><</span>HB<span>/></span></p>
             <ul>
-                <li>
-                    <a href="<?php echo about_url(); ?>">About</a>
-                </li>
-                <li>
-                    <a href="<?php echo skills_url(); ?>">Skills</a>
-                </li>
-                <li>
-                    <a href="<?php echo projects_url(); ?>">Projects</a>
-                </li>
-                <li>
-                    <a href="<?php echo contact_url(); ?>">Contact</a>
-                </li>
-                <li>
-                    <a href="<?php echo hire_me_url(); ?>">Hire me</a>
-                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hire-me" class="btn-hire">Hire me</a></li>
             </ul>
         </nav>
     </header>
