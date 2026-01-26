@@ -1,0 +1,59 @@
+.hero {
+  background: linear-gradient(#0c0e12, #0e1115);
+  padding: 5rem;
+}
+
+.hero__info {
+  color: white;
+
+  .hero__title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    span {
+    background: linear-gradient(to right, #25d4cb, #1aa7e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+  }
+
+  .hero__subtitle {
+    font-size: 1.5rem;
+    color: #576573;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .hero__desc {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #576573;
+
+  }
+}
+
+.hero__actions {
+
+    margin: 2rem 0;
+    
+    a {
+        margin: 0.2rem;
+        text-decoration: none;
+        padding: 0.7rem 1.2rem;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .hero__action--contact {
+        background-color: #26D9CA;
+        color: #0d1117;
+        border-radius: 5px;
+    }
+
+    .hero__action--work {
+        border: 1px solid #26D9CA;
+        color: #26D9CA;
+    }
+}

@@ -4,11 +4,15 @@ Author: Habip
 Description: Mijn eerste zelfgecodeerde thema voor mijn stage-portfolio.
 Version: 1.0
 */
+@import url('styles/header.css');
+@import url('styles/hero.css');
 
 body {
     background-color: #f0f0f0;
     font-family: sans-serif;
     color: #333;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 /* Sectie Styling */
