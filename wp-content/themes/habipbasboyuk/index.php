@@ -5,6 +5,7 @@
     <?php get_template_part('sections/about'); ?>
     <?php get_template_part('sections/skills'); ?>
     <?php get_template_part('sections/my-work'); ?>
+    <?php get_template_part('sections/lets-talk'); ?>
 </main>
 
 <?php get_footer(); ?>
