@@ -17,4 +17,4 @@
                 <li class="header__menu-item"><a href="#hire-me" class="header__menu-link header__menu-link--hire btn-hire">Hire me</a></li>
             </ul>
         </nav>
-    </header>
+</header>

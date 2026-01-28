@@ -1,6 +1,27 @@
 .hero {
   background: linear-gradient(#0c0e12, #0e1115);
   padding: 5rem;
+  padding-bottom: 0;
+  height: 100vh;
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__bg-image {
+  width: 40%;
+}
+.hero__image {
+  width: 450px;
 }
 
 .hero__info {
@@ -55,5 +76,17 @@
     .hero__action--work {
         border: 1px solid #26D9CA;
         color: #26D9CA;
+    }
+}
+
+.hero__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    a {
+        background-color: #21242C;
+        padding: 0.6rem;
+        border-radius: 50%;
+        text-decoration: none;
     }
 }
